@@ -10,7 +10,7 @@ col.setAttribute("class", "col-md-8");
 //heading to show what is all about
 var heading = document.createElement("h1");
 heading.setAttribute("class", "h1");
-heading.innerHTML = "Predicting The Nationality from A Name";
+heading.innerHTML = "Search for the nationality based on the name";
 
 //formgroup div element to hold input field, button and all other divs
 let formgroup = document.createElement("div");
