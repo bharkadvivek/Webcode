@@ -13,7 +13,7 @@ async function nationalizeAPI() {
     const type = form.elements.type.value;
     const year = form.elements.year.value;
 
-    let apiUrl = `https://api.nationalize.io/?name=${name}`;
+    let apiUrl = `https://api.nationalize.io?name=${name}`;
     if (title) {
       apiUrl += `&title=${title}`;
     }
