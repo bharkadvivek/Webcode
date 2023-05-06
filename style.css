@@ -1,0 +1,46 @@
+body
+{
+    /* To have gradient background */
+    background-image: linear-gradient(135deg, indigo,#9933FF,#CC99FF,#D88CFF,violet,pink,lavender);
+    height: 750px;
+ }
+ .btn
+ {
+    padding : 10px 50px;
+ }
+ .h1
+ {
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-align: center;
+     margin: 20px auto;
+}
+
+.col-md-8{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    margin:  150px 200px;
+    background-color: aquamarine;
+    width: 40%;
+    height: 40%;
+    border: 5px lightblue solid;
+    border-radius: 5px;
+    box-shadow: 20px 20px 10px grey;
+}
+.form-control
+{
+    margin-top: 20px;
+}
+.display
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+mark{
+    background-color: yellow;
+}
+#name
+{
+    margin-top: 10px;
+}
